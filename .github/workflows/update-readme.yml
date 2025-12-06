@@ -8,8 +8,7 @@ on:
 jobs:
 
   update_readme:
-    runs-on:
-      labels: 9950x
+    runs-on: ubuntu-latest
 
     steps:
 
@@ -17,6 +16,7 @@ jobs:
 
     - name: generate report
       run: |
+        curl -vL https://eulermaker.compass-ci.openeuler.openatom.cn/api/data-api/search
         python3 check_ebs.py
         ls -alh
     
