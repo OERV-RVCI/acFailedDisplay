@@ -23,4 +23,4 @@ jobs:
       with:
         file-path: README.md
         commit-msg: Update README.md
-        github-token: ${{ secrets.ACFAILEDDISPLAY_GITHUB_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
