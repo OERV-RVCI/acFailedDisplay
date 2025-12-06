@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from pprint import pprint
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 import requests
 import yaml
@@ -221,9 +221,16 @@ def generate_report_with_latest_timestamp(data_list):
     }
     
     report_lines = []
-    now_str = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    # 生成时间带时区 (东八区)
+    china_tz = timezone(timedelta(hours=8))
+    now_str = datetime.now(china_tz).strftime('%Y-%m-%d %H:%M:%S %z')
+    # 格式化时区显示为 +0800 而不是 +0800:00
+    now_str = now_str.replace('+0800', '+0800')
+
+    
     report_lines.append(f"# 构建状态报告\n")
     report_lines.append(f"**生成时间**: {now_str}")
+    report_lines.append("")  # 空行
     report_lines.append(f"**数据条数**: 原始 {len(data_list)} 条，去重后 {len(unique_records)} 条\n")
     
     report_lines.append("## 📊 构建状态汇总\n")
