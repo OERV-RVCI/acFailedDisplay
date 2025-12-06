@@ -16,13 +16,12 @@ jobs:
 
     - name: generate report
       run: |
-        curl -vL https://eulermaker.compass-ci.openeuler.openatom.cn/api/data-api/search
         python3 check_ebs.py
-        ls -alh
-    
+
     - name: Commit report
       run: |
+        git add *
         git config --global user.name 'oervci'
         git config --global user.email 'rvci@isrc.iscas.ac.cn'
-        git commit -am "update README.md"
+        git commit -m "update README.md"
         git push
