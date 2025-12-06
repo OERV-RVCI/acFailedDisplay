@@ -1,0 +1,26 @@
+name: update readme
+on:
+  schedule:
+    - cron: "30 * * * *"
+  workflow_dispatch:
+   
+
+jobs:
+
+  getinfo:
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+    - uses: actions/checkout@v4
+
+    - name: generate report
+      run: python3 check_ebs.py
+    
+    - name: Commit report
+      run: |
+          git config --global user.name 'oervci'
+          git config --global user.email 'rvci@isrc.iscas.ac.cn'
+          git commit -am "update README.md"
+          git push
