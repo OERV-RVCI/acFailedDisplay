@@ -1,12 +1,12 @@
 # 构建状态报告
 
-**生成时间**: 2025-12-10 13:43:59 +0800
+**生成时间**: 2025-12-10 14:54:34 +0800
 
-**数据条数**: 原始 37 条，去重后 29 条
+**数据条数**: 原始 38 条，去重后 30 条
 
 ## 📊 构建状态汇总
 
-- ❌ **FAILED**: 29 个包
+- ❌ **FAILED**: 30 个包
 
 ## 📋 构建详情
 
@@ -14,6 +14,7 @@
 
 | 最新时间 | 包名 | 状态 | PR链接 | 构建链接 |
 |------|------|----------|--------|----------|
+| 12-10 13:38 | efi-rpm-macros | ❌ FAILED | [PR #52](https://gitee.com/src-openeuler/efi-rpm-macros/pulls/52) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=openEuler-24.03-LTS-SP2:riscv64:efi-rpm-macros:52) |
 | 12-04 10:15 | python-flask | ❌ FAILED | [PR #75](https://gitee.com/src-openeuler/python-flask/pulls/75) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-flask:75) |
 | 12-03 18:09 | chrony | ❌ FAILED | [PR #66](https://gitee.com/src-openeuler/chrony/pulls/66) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=openEuler-25.09:riscv64:chrony:66) |
 | 12-02 14:12 | python-suds2 | ❌ FAILED | [PR #31](https://gitee.com/src-openeuler/python-suds2/pulls/31) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-suds2:31) |
