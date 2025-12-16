@@ -1,12 +1,12 @@
 # 构建状态报告
 
-**生成时间**: 2025-12-16 13:44:48 +0800
+**生成时间**: 2025-12-16 14:55:19 +0800
 
-**数据条数**: 原始 26 条，去重后 19 条
+**数据条数**: 原始 21 条，去重后 20 条
 
 ## 📊 构建状态汇总
 
-- ❌ **FAILED**: 19 个包
+- ❌ **FAILED**: 20 个包
 
 ## 📋 构建详情
 
@@ -14,6 +14,8 @@
 
 | 最新时间 | 包名 | 状态 | PR链接 | 构建链接 |
 |------|------|----------|--------|----------|
+| 12-16 14:32 | clevis | ❌ FAILED | [PR #30](https://gitee.com/src-openeuler/clevis/pulls/30) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=openEuler-24.03-LTS:riscv64:clevis:30) |
+| 12-16 14:24 | clevis | ❌ FAILED | [PR #28](https://gitee.com/src-openeuler/clevis/pulls/28) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=openEuler-24.03-LTS-SP2:riscv64:clevis:28) |
 | 12-10 13:38 | efi-rpm-macros | ❌ FAILED | [PR #52](https://gitee.com/src-openeuler/efi-rpm-macros/pulls/52) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=openEuler-24.03-LTS-SP2:riscv64:efi-rpm-macros:52) |
 | 12-04 10:15 | python-flask | ❌ FAILED | [PR #75](https://gitee.com/src-openeuler/python-flask/pulls/75) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-flask:75) |
 | 12-03 18:09 | chrony | ❌ FAILED | [PR #66](https://gitee.com/src-openeuler/chrony/pulls/66) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=openEuler-25.09:riscv64:chrony:66) |
@@ -31,5 +33,4 @@
 | 11-28 17:19 | python-pydot | ❌ FAILED | [PR #17](https://gitee.com/src-openeuler/python-pydot/pulls/17) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-pydot:17) |
 | 11-28 17:13 | python-safety | ❌ FAILED | [PR #16](https://gitee.com/src-openeuler/python-safety/pulls/16) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-safety:16) |
 | 11-28 16:53 | python-pydoctor | ❌ FAILED | [PR #18](https://gitee.com/src-openeuler/python-pydoctor/pulls/18) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-pydoctor:18) |
-| 11-27 17:37 | rubygem-puma | ❌ FAILED | [PR #75](https://gitee.com/src-openeuler/rubygem-puma/pulls/75) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:rubygem-puma:75) |
 | 11-27 15:17 | python-safety | ❌ FAILED | [PR #15](https://gitee.com/src-openeuler/python-safety/pulls/15) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-safety:15) |
