@@ -1,12 +1,12 @@
 # 构建状态报告
 
-**生成时间**: 2025-12-16 10:27:55 +0800
+**生成时间**: 2025-12-16 11:46:09 +0800
 
-**数据条数**: 原始 28 条，去重后 21 条
+**数据条数**: 原始 27 条，去重后 20 条
 
 ## 📊 构建状态汇总
 
-- ❌ **FAILED**: 21 个包
+- ❌ **FAILED**: 20 个包
 
 ## 📋 构建详情
 
@@ -34,4 +34,3 @@
 | 11-27 17:37 | rubygem-puma | ❌ FAILED | [PR #75](https://gitee.com/src-openeuler/rubygem-puma/pulls/75) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:rubygem-puma:75) |
 | 11-27 15:17 | python-safety | ❌ FAILED | [PR #15](https://gitee.com/src-openeuler/python-safety/pulls/15) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-safety:15) |
 | 11-27 13:10 | python-pydoctor | ❌ FAILED | [PR #17](https://gitee.com/src-openeuler/python-pydoctor/pulls/17) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-pydoctor:17) |
-| 11-27 12:49 | python-suds2 | ❌ FAILED | [PR #29](https://gitee.com/src-openeuler/python-suds2/pulls/29) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-suds2:29) |
