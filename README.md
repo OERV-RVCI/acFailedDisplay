@@ -1,12 +1,12 @@
 # 构建状态报告
 
-**生成时间**: 2025-12-22 16:51:56 +0800
+**生成时间**: 2025-12-22 17:50:07 +0800
 
-**数据条数**: 原始 19 条，去重后 19 条
+**数据条数**: 原始 18 条，去重后 18 条
 
 ## 📊 构建状态汇总
 
-- ❌ **FAILED**: 19 个包
+- ❌ **FAILED**: 18 个包
 
 ## 📋 构建详情
 
@@ -32,4 +32,3 @@
 | 11-28 17:20 | python-hyperframe | ❌ FAILED | [PR #25](https://gitee.com/src-openeuler/python-hyperframe/pulls/25) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-hyperframe:25) |
 | 11-28 17:19 | python-pydot | ❌ FAILED | [PR #17](https://gitee.com/src-openeuler/python-pydot/pulls/17) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-pydot:17) |
 | 11-28 17:13 | python-safety | ❌ FAILED | [PR #16](https://gitee.com/src-openeuler/python-safety/pulls/16) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-safety:16) |
-| 11-28 16:53 | python-pydoctor | ❌ FAILED | [PR #18](https://gitee.com/src-openeuler/python-pydoctor/pulls/18) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-pydoctor:18) |
