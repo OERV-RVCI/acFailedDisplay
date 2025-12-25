@@ -1,12 +1,12 @@
 # 构建状态报告
 
-**生成时间**: 2025-12-25 19:37:23 +0800
+**生成时间**: 2025-12-25 21:07:34 +0800
 
-**数据条数**: 原始 15 条，去重后 15 条
+**数据条数**: 原始 14 条，去重后 14 条
 
 ## 📊 构建状态汇总
 
-- ❌ **FAILED**: 15 个包
+- ❌ **FAILED**: 14 个包
 
 ## 📋 构建详情
 
@@ -28,4 +28,3 @@
 | 12-01 18:12 | python-safety | ❌ FAILED | [PR #17](https://gitee.com/src-openeuler/python-safety/pulls/17) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-safety:17) |
 | 12-01 17:58 | python-pydoctor | ❌ FAILED | [PR #19](https://gitee.com/src-openeuler/python-pydoctor/pulls/19) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-pydoctor:19) |
 | 11-28 17:27 | python-suds2 | ❌ FAILED | [PR #30](https://gitee.com/src-openeuler/python-suds2/pulls/30) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-suds2:30) |
-| 11-28 17:24 | python-pecan | ❌ FAILED | [PR #36](https://gitee.com/src-openeuler/python-pecan/pulls/36) | [构建详情](https://eulermaker.compass-ci.openeuler.openatom.cn/project/overview?osProject=master:riscv64:python-pecan:36) |
